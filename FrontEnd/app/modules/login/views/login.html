@@ -1,0 +1,44 @@
+<div align="center" ng-controller="Login as scope">
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <div align="center">
+                <h2><b>Team City Build Dashboard</b></h2>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label class="pull-left">Username:</label>
+                            <input ng-keyup="$event.keyCode == 13 && scope.SignIn()" type="text" class="form-control"
+                                   ng-model="scope.user.username">
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label class="pull-left">Password:</label>
+                            <input ng-keyup="$event.keyCode == 13 && scope.SignIn()" type="password"
+                                   class="form-control" ng-model="scope.user.password">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button ng-click="scope.SignIn()" class="btn btn-primary"><i class="fa fa-sign-in"> </i>
+                                Sign In
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>

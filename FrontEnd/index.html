@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/angularjs-toaster/toaster.css"/>
+
+    <!-- endinject -->
+
+</head>
+<body ng-app="teamCityDashboard"  >
+<toaster-container toaster-options="{'time-out': 3000}"></toaster-container>
+<div class="col-sm-12">
+    <div ui-view></div>
+
+</div>
+</body>
+<footer class="footer">
+    <div class="container" align="center">
+        <h4><b> TeamCity Dashboard - Prinay Panday &copy;
+            <script>document.write(new Date().getFullYear())</script>
+        </b></h4>
+    </div>
+</footer>
+</html>

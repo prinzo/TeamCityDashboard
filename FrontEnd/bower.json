@@ -1,0 +1,39 @@
+{
+  "name": "TeamCityDashboard",
+  "description": "An angular js front end for a Team City Dashboard",
+  "main": "index.js",
+  "authors": [
+    "Prinay Panday"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "teamcity",
+    "dashing",
+    "angular",
+    "dashboard",
+    "CI",
+    "continuous",
+    "integration"
+  ],
+  "homepage": "https://github.com/prinzo/TeamCityDashboard",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-spinner": "^0.8.1",
+    "ngBootbox": "^0.1.3",
+    "angular-ui-router": "^0.2.18",
+    "font-awesome": "fontawesome#^4.5.0",
+    "AngularJS-Toaster": "angularjs-toaster#^1.2.0",
+    "angucomplete-alt": "^2.2.0",
+    "angular-resource": "^1.5.0",
+    "angular-cookies": "^1.5.0",
+    "angular-bootstrap": "^1.2.2"
+  }
+}
