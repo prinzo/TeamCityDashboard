@@ -1,3 +1,39 @@
 <div ng-controller="Dashboard as scope">
-dashboard
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel">
+                <div class="panel-body">
+                    <div align="center">
+                        <h3><b>My TeamCity Builds</b></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <small><em>Object (changes type based on value)</em></small>
+                            <uib-progressbar class="progress-striped active" value="dynamic" type="{{type}}">{{type}} <i
+                                    ng-show="showWarning">!!! Watch out !!!</i></uib-progressbar>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <small><em>Object (changes type based on value)</em></small>
+                            <uib-progressbar class="progress-striped active" value="dynamic" type="{{type}}">{{type}} <i
+                                    ng-show="showWarning">!!! Watch out !!!</i></uib-progressbar>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
